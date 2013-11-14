@@ -8,7 +8,7 @@
     <!-- put in font awesome -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-    <style type="text/css">
+/*<!--     <style type="text/css">
         * {
             border: 1px solid red;
             -moz-box-sizing: border-box;
@@ -16,54 +16,85 @@
             box-sizing: border-box;
         }
         /* You will put the rest of the styles here */
-    </style>
+    </style> -->*/
      <link href="Eterna.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <div class="container">
-        <div class="row header">
-            <div class="col-lg-1">
-            </div>
-            <div class="col-lg-3">
-                <img src="logo.png">
-            </div>
-            <div class="col-lg-1">
-                <p> Home </p>
-            </div>
-            <div class="col-lg-1">
-                <p> Features </p>
-            </div>
-            <div class="col-lg-1">
-                <p> Features </p>
-            </div>
-            <div class="col-lg-1">
-                <p> Features </p>
-            </div>
-            <div class="col-lg-1">
-                <p> Features </p>
-            </div>
-            <div class="col-lg-1">
-                <p> Features </p>
-            </div>
-            <div class="col-lg-2">
-            </div>
+    <!-- This is the first section -->
+    <div class="headerwrap row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+            <img src="https://raw.github.com/makersquare/first-full-layout/master/eterna/logo.png" width="130px" />
         </div>
+        <div class="col-lg-4">&nbsp;</div>
+        <div class="col-lg-5">
+            <!-- use Font Awesome for icons -->
+            <span class="nav-button active"><i class="fa fa-home"></i>&nbsp;Home&nbsp;<i class="fa fa-angle-down"></i></span>
+            <span class="nav-button">Features&nbsp;<i class="fa fa-angle-down"></i></span>
+            <span class="nav-button">Pages&nbsp;<i class="fa fa-angle-down"></i></span>
+            <span class="nav-button">Portfolio&nbsp;<i class="fa fa-angle-down"></i></span>
+            <span class="nav-button">Blog&nbsp;<i class="fa fa-angle-down"></i></span>
+            <span class="nav-button">Contact&nbsp;</span>
+        </div>
+    </div>
     </div>
 
-    <div>
-        <div class="hero-wrapper">
-        <div class="container">
-            <div class="row hero">
-                <div class="col-lg-4">
-                    <img src="iMac.png">
+    <div class="hero-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <img src="https://raw.github.com/makersquare/first-full-layout/master/eterna/iMac.png" width="450px" />
+            </div>
+            <div class="col-lg-5">
+                <h3>Put your <span class="standout">Opt in form</span></h3>
+                <p><small>Vim porro dicam reprehendunt te, populo quodsi dissentient cum ad. Ne natum deseruisse vis. lisque deseruisse sententiae mel ne, dolores appetere vim ut. Sea no tamquam reprimique.</small></p>
+                <div>
+                    <input type="text" class="subscribe-email" />
+                    <input type="button" value="Subscribe" class="subscribe" />
                 </div>
-                <div class="col-lg-3">
-                </div>
-                <div class="col-lg-5">
-                    <h3 class="bolder">Put your <span style="color: #FF6633">Opt in form</span></h3>
-                    <p>Vim porro dicam reprehendunt te, populo quodsl dissentlet cum ad. New natum deserulsse vis. lisque deserulsse sententlae, mel ne, dolores appetere vim ut. Sea no tamquam reprimique.</p>
             </div>
         </div>
+    </div>
+</div>
+
+    <div class="features-and-footer container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="feature-dot"><i class="fa fa-star"></i></div>
+            <div class="right-feature-sides">
+                <div><h4>High <strong>Quality</strong></h4></div>
+                <div><small class="grey-text">Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.</small></div>
+                <div><small class="learn-more-link">Learn More</small></div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="feature-dot"><i class="fa fa-dropbox"></i></div>
+            <div class="right-feature-sides">
+                <div><h4>Rich of <strong>Features</strong></h4></div>
+                <div><small class="grey-text">Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.</small></div>
+                <div><small class="learn-more-link">Learn More</small></div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="feature-dot"><i class="fa fa-laptop"></i></div>
+            <div class="right-feature-sides">
+                <div><h4>Modern <strong>Design</strong></h4></div>
+                <div><small class="grey-text">Lorem ipsum dolor sit amet, has ei ipsum scaevola deseruisse am sea facilisis.</small></div>
+                <div><small class="learn-more-link">Learn More</small></div>
+            </div>
         </div>
     </div>
+    </div>
+
+    </div> <!-- end of the container / features-and-footer -->
+<footer class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+        <h3 class="text-center">Our <strong>Pricing</strong></h3>
+        <p class="text-center"><small class="grey-text">Lorem ipsum dolor sit amet, labores dolorum scriptorem eum an, te quodsi sanctus neglegentur</small></p>
+    </div>
+    <div class="col-lg-3"></div>
+</footer>
