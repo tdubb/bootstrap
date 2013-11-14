@@ -1,0 +1,19 @@
+.header p {
+	color: gray;
+	font-size: 0.8em;
+
+}
+
+.hero p {
+	color: gray;
+	display: inline-block;
+}
+
+.hero-wrapper {
+	background: url('background.jpg') no-repeat;
+	padding-top: 35px;
+}
+
+.hero {
+	display: inline-block;
+}
